@@ -95,7 +95,7 @@ public final class Launcher extends Application {
 
     @Override
     public void start(final Stage stage) {
-        start(stage, Difficulty.EASY);
+        start(stage, DEFAULT_DIFFICULTY);
     }
 
     public void start(final Stage stage, final Difficulty difficulty) {
