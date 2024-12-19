@@ -37,7 +37,7 @@ public final class Launcher extends Application {
     private static final double MINE_PROBABILITY_EASY = 15.0;
     private static final double MINE_PROBABILITY_MEDIUM = 18.0;
     private static final double MINE_PROBABILITY_HARD = 22.0;
-    private static final Difficulty DEFAULT_DIFFICULTY = Difficulty.HARD;
+    private static final Difficulty DEFAULT_DIFFICULTY = Difficulty.EASY;
     private static final String WINDOW_TITLE = "Minesweeper";
     private static final String MINE_SYMBOL = "💣";
     private static final String EMPTY_AND_HIDDEN_CELL_SYMBOL = "";
